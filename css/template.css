@@ -1,0 +1,99 @@
+p{
+	color:white;
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+}
+
+#menu ul li {
+    background-color: #666;
+    border-left: 10px solid #666;
+}
+
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+    border-left: 10px solid #666;
+}
+
+#menu ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+    border-left: 10px solid #666;
+}
+
+
+#button {
+padding: 0;
+}
+
+
+#button li {
+display: inline-block;
+background-color: #666;
+    border-left: 10px solid #666;
+}
+
+
+#button li a {
+font-family: Arial, sans-serif;
+    font-size: 15pt;
+text-decoration: none;
+float:left;
+    text-transform: uppercase;
+padding: 10px;
+border-left: 10px solid #666;
+background-color: #666;
+color: #fff;
+}
+
+
+#button li a:hover {
+    background: #000;
+    border-left: 10px solid #666;
+    color: #fff;
+    border-left: 10px solid #666;
+}
+
+h1{
+    color: white;
+}
+
+#mail ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    width: 700px;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+}
+#mail ul li {
+    background-color: #666;
+    border-left: 10px solid #666;
+}
+#mail ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+    border-left: 10px solid #666;
+}
+#mail ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+    border-left: 10px solid #666;
+}
