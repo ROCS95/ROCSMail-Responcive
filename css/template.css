@@ -4,11 +4,24 @@ p{
     font-family: Arial, sans-serif;
 }
 
+#transparente{
+    background:transparent;
+    width:100px; 
+    height:50px 
+
+}
+
+#read{
+    color:black;
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+}
+
 #menu ul {
     list-style-type: none;
     margin: 0px;
     padding: 50px;
-    width: 200px;
+    width: 270px;
     font-family: Arial, sans-serif;
     font-size: 15pt;
 }
@@ -16,6 +29,7 @@ p{
 #menu ul li {
     background-color: #666;
     border-left: 10px solid #666;
+    color:white;
 }
 
 #menu ul li a {
@@ -32,6 +46,7 @@ p{
     border-left: 10px solid #333;
     color: #fff;
     border-left: 10px solid #666;
+
 }
 
 
@@ -44,6 +59,7 @@ padding: 0;
 display: inline-block;
 background-color: #666;
     border-left: 10px solid #666;
+    color:white;
 }
 
 
@@ -98,6 +114,156 @@ h1{
     border-left: 10px solid #666;
 }
 
-a.este{
-    style="font-size:100%"
+#este{
+    style="font-size:20pt
+}
+
+
+.titulotabla{
+    height: 100px;
+    float: none;
+    margin-top: 50px;
+}
+.lugar{
+    margin-left: 15%;
+    display: inline-block;
+    height: 40px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.lugar label{
+    font-size: 200%;
+    color: #442F20;
+}
+.lugar i {
+    font-size: 250%;
+    color: #442F20;
+}
+.button{
+    margin-right: 15%;
+    display: inline-block;
+    float: right;
+    padding-top: 31px;
+    height: 70px;
+    text-decoration: none;
+    color: #A80461;
+}
+input, button{
+    font-size: 25px;
+    border-style: solid;
+    border-color: #442F20;
+    border-radius:6px;
+    cursor:pointer;
+    background-color: #FFE7C1;
+}
+button a{
+    text-decoration: none;
+    color: #442F20;
+}
+
+.contenedortabla{
+    padding-left: 17%;
+}
+.tabla {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: right;
+    width: 600px;
+    border-style: none;
+    width: 80%; /*Aquí va el ancho de la Celda*/
+    height: 40%; /*Aquí el Alto*/
+}
+.tabla th{
+    padding: 5px;
+    font-size: 16px;
+    background-color: #442F20;
+    color: #FF9A00;
+    border-style: solid;
+    border-color: #FFDBC1;
+    border-width: 1px;
+    font-family: “Trebuchet MS”, Arial;
+    text-transform: uppercase;
+}
+.tabla td {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #FFDBC1;
+    color: #442F20;
+    font-family: “Trebuchet MS”, Arial;
+    text-transform: uppercase;
+}
+.tabla td a{
+    color: #442F20;
+}
+.eliminar{
+    margin-left: 15%;
+    font-size: 120%;
+}
+
+@media( min-width: 320px){
+    .contenedortabla{
+        display: none;
+    }
+    .contenedorselect{
+        margin-top: 15%;
+        margin-left: 15%; 
+        padding: 3%;
+    }
+    .contenedorselect input{
+        font-size: 345%;
+        margin-left: 48%;
+    }
+    .contenedorselect select{
+        font-size: 345%;
+        color: #FFE7C1;
+        background-color: #442F20;
+    }
+    .contenedorselect select option{
+        font-size: 30%;
+    }
+    .lugar label{
+        font-size: 350%;
+    }
+    .lugar i {
+        font-size: 350%;
+    }
+    .button{
+        height: 60px;
+    }
+    .button button{
+        font-size: 347%;
+    }
+    .titulotabla{
+    height: 70px;
+    float: none;
+    margin-top: 50px;
+    margin-bottom: 5%;
+    }
+    .titulotabla .lugar{
+        height: 60px;
+    }
+}
+@media(min-width: 1024px){
+    .contenedortabla{
+        display: inline-block;
+    }
+    .contenedorselect{
+        display: none;
+    }
+    .lugar label{
+        font-size: 300%;
+    }
+    .lugar i {
+        font-size: 300%;
+    }
+    .button{
+        height: 60px;
+    }
+    .button button{
+        font-size: 250%;
+    }
+    .titulotabla{
+    margin-top: 0px;
+    }
 }
